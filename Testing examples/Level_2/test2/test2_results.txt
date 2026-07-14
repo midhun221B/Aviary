@@ -1,0 +1,12 @@
+
+Takeoff Gross Weight = 158181.20959412016 lbm
+
+Design Variables
+---------------
+Engine Scale Factor (started at 1) = 0.9604048201911314
+Wing Area (started at 1370) = 1322.9850799510014 ft^2
+
+Constraints
+-----------
+Wing Loading = 120.0 lbf/ft^2
+Thrust/Weight Ratio = 0.3500000000000005
