@@ -80,3 +80,10 @@ prob = av.run_aviary(
         aircraft_data='models/aircraft/advanced_single_aisle/advanced_single_aisle_FLOPS.csv',
         phase_info=phase_info,
     )
+
+# -- SUMMARY OUTPUT ---
+print("\n" + "="*50)
+print("MISSION SUMMARY")
+print("="*50)
+print(f"Fuel mass         : {prob.get_val(av.Mission.FUEL_MASS, units='kg')[0]:.2f} kg")
+print("="*50)
