@@ -1,0 +1,15 @@
+import aviary.api as av
+from pathlib import Path
+
+base = Path(r'D:\Archived_150126\GIT\Aviary\examples\Level_2\test5')
+
+# Reload the problem from the saved files
+reloaded_problem = av.reload_aviary_problem(
+    str(base/'advanced_single_aisle_FLOPS_out'/'reports'/'sizing_results.json'), phase_info
+)
+
+new_off_design_max_range_prob = design_prob.run_off_design_mission(
+    problem_type='off_design_max_range',
+    mission_gross_mass=115000,
+    name='off_design_max_range_mission',
+)
