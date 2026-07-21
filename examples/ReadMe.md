@@ -15,3 +15,5 @@ Examples for learning Aviary
 - Enhanced test4d.py to run multiple cases with unique problem names and output a comparison table of results.
 
 /Test_5: Running sizing mission, then run two off-design missions (one for max range and one for min fuel).
+
+/Test_6: Defining takeoff and landing trajectory. Demonstrating how to define the detailed takeoff and detailed landing phase segments in isolation

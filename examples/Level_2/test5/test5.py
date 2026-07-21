@@ -34,7 +34,6 @@ off_design_min_fuel_prob = design_prob.run_off_design_mission(
     name='off_design_min_fuel_mission',
 )
 
-
 # ============================================================
 # SUMMARY PRINTER
 # ============================================================
