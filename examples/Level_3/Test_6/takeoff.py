@@ -1,4 +1,4 @@
-import openmdao.api as om
+import openmdao.api as om # type: ignore
 import aviary.api as av
 
 # fmt: off
